@@ -1,0 +1,31 @@
+.section4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section4 .text-dec {
+  color: #00AEDC;
+  margin-right: 10px;
+}
+
+.section4 .benefits {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 50px;
+}
+
+.section4 .space {
+  color: white;
+  margin-right: 10px;
+}
+/*# sourceMappingURL=section4.css.map */

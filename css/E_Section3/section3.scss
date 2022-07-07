@@ -1,0 +1,81 @@
+$myColor: #2f2643;
+.section3{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+
+
+
+    .leftsection3{
+
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+
+    }
+
+    .rightsection3{
+
+
+        .who_is_envite_for{
+
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: 0.01em;
+    
+        }
+
+        .whow{
+
+            font-size: 35px;
+
+        }
+
+
+    }
+    
+
+
+}
+
+
+.innersection3{
+
+    float: left;
+    width: 34.5%;
+
+}
+
+
+.earn{
+
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    background-color: #ff707a;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 40px;
+
+    &:hover{
+
+        display: flex;
+        padding: 10px 20px 10px 20px;
+        color: $myColor;
+        background-color: #ff707a;
+        border-radius: 5px;
+        border: none;
+
+    }
+
+    
+
+
+
+}

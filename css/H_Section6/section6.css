@@ -1,0 +1,92 @@
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #474f5a;
+  width: 100%;
+}
+
+footer .inner-footer {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+}
+
+footer .inner-footer .top-footer {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+footer .inner-footer .top-footer h5 {
+  color: whitesmoke;
+}
+
+footer .inner-footer .top-footer h5 :hover {
+  color: #2f2643;
+}
+
+footer .inner-footer .top-footer .nvite .bl-wh {
+  width: 120px;
+  height: 40px;
+}
+
+footer .inner-footer .top-footer .nvite .rame {
+  margin: 15px 0px;
+  color: whitesmoke;
+}
+
+footer .inner-footer .top-footer .rame, footer .inner-footer .top-footer .flx, footer .inner-footer .top-footer .h6, footer .inner-footer .top-footer .FAQ, footer .inner-footer .top-footer .ab-us, footer .inner-footer .top-footer .pric, footer .inner-footer .top-footer .contact {
+  color: whitesmoke;
+}
+
+footer .inner-footer .bottom-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+footer .inner-footer .bottom-footer .line {
+  width: 80%;
+  height: 1px;
+  background-color: white;
+}
+
+footer .inner-footer .bottom-footer .copyright {
+  color: whitesmoke;
+  padding: 30px 15px;
+  border-top: 5px white;
+}
+/*# sourceMappingURL=section6.css.map */

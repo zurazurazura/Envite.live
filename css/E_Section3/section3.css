@@ -1,0 +1,68 @@
+.section3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section3 .leftsection3 {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px;
+}
+
+.section3 .rightsection3 .who_is_envite_for {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.01em;
+}
+
+.section3 .rightsection3 .whow {
+  font-size: 35px;
+}
+
+.innersection3 {
+  float: left;
+  width: 34.5%;
+}
+
+.earn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  background-color: #ff707a;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.earn:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px 10px 20px;
+  color: #2f2643;
+  background-color: #ff707a;
+  border-radius: 5px;
+  border: none;
+}
+/*# sourceMappingURL=section3.css.map */

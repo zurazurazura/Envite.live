@@ -1,0 +1,164 @@
+.Section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Section1 .p-sign-in, .Section1 .p-share, .Section1 .p-customize {
+  margin: 20px;
+}
+
+.Section1 .h2 {
+  width: 60%;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #2f2643;
+  font-weight: 800;
+  font-size: 50px;
+  margin: 50px;
+}
+
+.Section1 .minutes {
+  margin-top: -20px;
+}
+
+.Section1 .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  max-width: 80%;
+  margin-top: 50px;
+}
+
+.Section1 .cards .card1, .Section1 .cards .card2, .Section1 .cards .card3 {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.Section1 .cards .card1 {
+  border-top: 5px solid #ff707a;
+}
+
+.Section1 .cards .card1 .one {
+  margin-right: 20px;
+  font-size: 40px;
+  color: #ff707a;
+}
+
+.Section1 .cards .card2 {
+  border-top: 5px solid #f5b118;
+}
+
+.Section1 .cards .card2 .two {
+  margin-right: 20px;
+  font-size: 40px;
+  color: #f5b118;
+}
+
+.Section1 .cards .card3 {
+  border-top: 5px solid #00aedc;
+}
+
+.Section1 .cards .card3 .three {
+  margin-right: 20px;
+  font-size: 40px;
+  color: #00aedc;
+}
+
+@media (max-width: 1000px) {
+  .Section1 .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+  .Section1 .cards .card1, .Section1 .cards .card2, .Section1 .cards .card3 {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    border-radius: 10px;
+    padding: 15px;
+  }
+  .Section1 .cards .card1 {
+    border-top: 5px solid #ff707a;
+  }
+  .Section1 .cards .card1 .one {
+    margin-right: 20px;
+    font-size: 40px;
+    color: #ff707a;
+  }
+  .Section1 .cards .card2 {
+    border-top: 5px solid #f5b118;
+  }
+  .Section1 .cards .card2 .two {
+    margin-right: 20px;
+    font-size: 40px;
+    color: #f5b118;
+  }
+  .Section1 .cards .card3 {
+    border-top: 5px solid #00aedc;
+  }
+  .Section1 .cards .card3 .three {
+    margin-right: 20px;
+    font-size: 40px;
+    color: #00aedc;
+  }
+}
+
+.Section1 .btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  background-color: #ff707a;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 40px;
+}
+
+.Section1 .btn:hover {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 20px 10px 20px;
+  color: #2f2643;
+  background-color: #ff707a;
+  border-radius: 5px;
+  border: none;
+}
+/*# sourceMappingURL=Section1.css.map */

@@ -1,0 +1,88 @@
+$myColor: #2f2643;
+footer{
+
+    display: flex;
+    justify-content: center;
+    background-color: #474f5a;
+    width: 100%;
+
+
+    .inner-footer{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+        
+
+        .top-footer{
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            h5{
+
+                color: whitesmoke;
+                :hover{
+
+                    color:$myColor ;
+
+                }
+
+            }
+            .nvite{
+                .bl-wh{
+
+                    width: 120px;
+                    height: 40px;
+    
+                }
+                .rame{
+    
+                    margin: 15px 0px;
+                    color: whitesmoke;
+    
+                }
+            }
+
+            .rame , .flx , .h6 , .FAQ , .ab-us , .pric, .contact{
+
+                color: whitesmoke;
+
+            }
+
+
+        }
+
+        .bottom-footer{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+
+            .line{
+
+                width: 80%;
+                height: 1px;
+                background-color: white;
+
+            }
+
+            .copyright{
+
+                color: whitesmoke;
+                padding: 30px 15px;
+                border-top: 5px white;
+
+            }
+
+        }
+
+
+    }
+
+}
+
