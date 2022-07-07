@@ -13,7 +13,7 @@ header, nav, .left-navbar, .right-navbar {
 
 .li-menu, .right-navbar-text {
   font: large bold;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Poppins", sans-serif;
   text-decoration: none;
   color: #2f2643;
   opacity: 0.8;
@@ -26,7 +26,9 @@ header {
           justify-content: center;
   background-color: white;
 }
-
+header .navbar-toggler {
+  border: none;
+}
 header nav {
   width: 80%;
   height: 80px;
@@ -35,7 +37,6 @@ header nav {
           justify-content: center;
   margin-left: 130px;
 }
-
 header nav .left-navbar {
   width: 50%;
   height: 100%;
@@ -46,21 +47,18 @@ header nav .left-navbar {
       flex-wrap: wrap;
   margin-top: 30px;
 }
-
 header nav .left-navbar .li-menu {
   margin-top: 5px;
-}
-
-header nav .left-navbar .li-menu:hover {
-  font: large bolder;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  text-decoration: none;
+  opacity: 0.8;
+  text-transform: uppercase;
+  font: 500 "Poppins", sans-serif 16px;
   color: #2f2643;
+}
+header nav .left-navbar .li-menu:hover {
   opacity: 1;
   -webkit-transition: 200ms;
   transition: 200ms;
 }
-
 header nav .right-navbar {
   width: 30%;
   height: 100%;
@@ -70,23 +68,31 @@ header nav .right-navbar {
   -ms-flex-item-align: end;
       align-self: flex-end;
   margin-top: 30px;
+  text-transform: uppercase;
 }
-
 header nav .right-navbar .right-navbar-text {
   margin-right: 20px;
+  font: 500 "Poppins", sans-serif 16px;
+  line-height: 24px;
+  opacity: 0.8;
 }
-
+header nav .right-navbar .right-navbar-text:hover {
+  opacity: 1;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
 header nav .right-navbar .right-navbar-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 18px 10px 18px;
   color: white;
   background-color: #ff707a;
   border-radius: 5px;
+  font: 600 "Poppins", sans-serif 16px;
+  text-align: center;
 }
-
 header nav .right-navbar .right-navbar-button:hover {
   color: #2f2643;
+  font: 600 "Poppins", sans-serif 16px;
 }
-/*# sourceMappingURL=navbar.css.map */

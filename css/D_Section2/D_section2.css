@@ -8,7 +8,11 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 126px;
 }
 
 .colored {
@@ -19,8 +23,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 83px;
 }
-
 .colored .main-widget {
   width: 60%;
   display: -webkit-box;
@@ -36,22 +40,18 @@
       -ms-flex-align: center;
           align-items: center;
 }
-
 .colored .main-widget .widget {
   width: 30%;
   padding: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
 .colored .main-widget .widget h4 {
   font: bold;
 }
-
 .colored .main-widget .widget .find-out {
   color: #00aedc;
   font-size: large;
 }
-
 .colored .main-widget .widget .find-out:hover {
   color: #2f2643;
 }
@@ -78,7 +78,7 @@
   .colored .main-widget .widget {
     width: 100%;
     padding: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: "Poppins", sans-serif;
   }
   .colored .main-widget .widget h4 {
     font: bold;
@@ -91,4 +91,3 @@
     color: #2f2643;
   }
 }
-/*# sourceMappingURL=D_section2.css.map */

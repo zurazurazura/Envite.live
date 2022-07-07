@@ -12,7 +12,6 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
 .section3 .leftsection3 {
   width: 40%;
   display: -webkit-box;
@@ -26,14 +25,12 @@
           align-items: center;
   margin: 50px;
 }
-
 .section3 .rightsection3 .who_is_envite_for {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.01em;
 }
-
 .section3 .rightsection3 .whow {
   font-size: 35px;
 }
@@ -54,7 +51,6 @@
   border-radius: 5px;
   margin-bottom: 40px;
 }
-
 .earn:hover {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -65,4 +61,3 @@
   border-radius: 5px;
   border: none;
 }
-/*# sourceMappingURL=section3.css.map */

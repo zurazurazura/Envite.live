@@ -1,11 +1,14 @@
 $myColor: #2f2643;
-
+$myFont : 'Poppins', sans-serif;
 .div{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    font-family: $myFont;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 126px;
 
 }
 
@@ -15,6 +18,7 @@ $myColor: #2f2643;
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 83px;
 
     .main-widget{
 
@@ -28,7 +32,7 @@ $myColor: #2f2643;
         
             width: 30%;
             padding: 20px;
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-family: $myFont;
         
             h4{
     
@@ -75,7 +79,7 @@ $myColor: #2f2643;
         
                 width: 100%;
                 padding: 20px;
-                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-family: $myFont;
                 h4{
         
                     font: bold;
