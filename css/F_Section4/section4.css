@@ -1,16 +1,9 @@
 .section4 {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   width: 100%;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 .section4 .text-dec {
   color: #00AEDC;
@@ -24,4 +17,4 @@
 .section4 .space {
   color: white;
   margin-right: 10px;
-}
+}/*# sourceMappingURL=section4.css.map */

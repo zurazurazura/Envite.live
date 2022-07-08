@@ -1,14 +1,15 @@
+.bg-light {
+  --bs-bg-opacity: 0;
+  background-color: rgba(var(--bs-light-rgb), var(--bs-bg-opacity)) !important;
+}
+
 a {
   text-decoration: none;
 }
 
 header, nav, .left-navbar, .right-navbar {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .li-menu, .right-navbar-text {
@@ -21,9 +22,7 @@ header, nav, .left-navbar, .right-navbar {
 
 header {
   width: 100%;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   background-color: white;
 }
 header .navbar-toggler {
@@ -32,19 +31,15 @@ header .navbar-toggler {
 header nav {
   width: 80%;
   height: 80px;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-left: 130px;
 }
 header nav .left-navbar {
   width: 50%;
   height: 100%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
   text-decoration: none;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   margin-top: 30px;
 }
 header nav .left-navbar .li-menu {
@@ -56,17 +51,13 @@ header nav .left-navbar .li-menu {
 }
 header nav .left-navbar .li-menu:hover {
   opacity: 1;
-  -webkit-transition: 200ms;
   transition: 200ms;
 }
 header nav .right-navbar {
   width: 30%;
   height: 100%;
-  -webkit-box-pack: right;
-      -ms-flex-pack: right;
-          justify-content: right;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
+  justify-content: right;
+  align-self: flex-end;
   margin-top: 30px;
   text-transform: uppercase;
 }
@@ -78,12 +69,9 @@ header nav .right-navbar .right-navbar-text {
 }
 header nav .right-navbar .right-navbar-text:hover {
   opacity: 1;
-  -webkit-transition: 200ms;
   transition: 200ms;
 }
 header nav .right-navbar .right-navbar-button {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   padding: 10px 18px 10px 18px;
   color: white;
@@ -95,4 +83,4 @@ header nav .right-navbar .right-navbar-button {
 header nav .right-navbar .right-navbar-button:hover {
   color: #2f2643;
   font: 600 "Poppins", sans-serif 16px;
-}
+}/*# sourceMappingURL=navbar.css.map */

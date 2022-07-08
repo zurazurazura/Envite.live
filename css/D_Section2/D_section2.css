@@ -1,13 +1,7 @@
 .div {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -15,79 +9,67 @@
   margin-top: 126px;
 }
 
-.colored {
+.section2 {
+  background-color: rgb(249, 249, 249);
+  padding-top: 69px;
+  padding-bottom: 147px;
+}
+.section2 .colored {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 83px;
 }
-.colored .main-widget {
+.section2 .colored .main-widget {
   width: 60%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
 }
-.colored .main-widget .widget {
+.section2 .colored .main-widget .widget {
   width: 30%;
   padding: 20px;
   font-family: "Poppins", sans-serif;
 }
-.colored .main-widget .widget h4 {
+.section2 .colored .main-widget .widget h4 {
   font: bold;
+  font-size: 20px;
+  margin-top: 12px;
+  margin-bottom: 24px;
 }
-.colored .main-widget .widget .find-out {
+.section2 .colored .main-widget .widget .find-out {
+  margin-top: 12px;
   color: #00aedc;
   font-size: large;
 }
-.colored .main-widget .widget .find-out:hover {
+.section2 .colored .main-widget .widget .find-out:hover {
   color: #2f2643;
 }
-
 @media (max-width: 950px) {
-  .colored {
+  .section2 .colored {
     width: 100%;
   }
-  .colored .main-widget {
+  .section2 .colored .main-widget {
     width: 60%;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
   }
-  .colored .main-widget .widget {
+  .section2 .colored .main-widget .widget {
     width: 100%;
     padding: 20px;
     font-family: "Poppins", sans-serif;
   }
-  .colored .main-widget .widget h4 {
+  .section2 .colored .main-widget .widget h4 {
     font: bold;
   }
-  .colored .main-widget .widget .find-out {
+  .section2 .colored .main-widget .widget .find-out {
     color: #00aedc;
     font-size: large;
   }
-  .colored .main-widget .widget .find-out:hover {
+  .section2 .colored .main-widget .widget .find-out:hover {
     color: #2f2643;
   }
-}
+}/*# sourceMappingURL=D_section2.css.map */

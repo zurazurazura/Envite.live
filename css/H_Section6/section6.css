@@ -1,40 +1,22 @@
 footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   background-color: #474f5a;
   width: 100%;
 }
 footer .inner-footer {
   width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
   margin-top: 50px;
 }
 footer .inner-footer .top-footer {
   width: 80%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 footer .inner-footer .top-footer h5 {
   color: whitesmoke;
@@ -54,19 +36,10 @@ footer .inner-footer .top-footer .rame, footer .inner-footer .top-footer .flx, f
   color: whitesmoke;
 }
 footer .inner-footer .bottom-footer {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   width: 100%;
 }
 footer .inner-footer .bottom-footer .line {
@@ -78,4 +51,4 @@ footer .inner-footer .bottom-footer .copyright {
   color: whitesmoke;
   padding: 30px 15px;
   border-top: 5px white;
-}
+}/*# sourceMappingURL=section6.css.map */

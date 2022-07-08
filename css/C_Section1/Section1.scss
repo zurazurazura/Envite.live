@@ -48,23 +48,21 @@ $myFont : 'Poppins', sans-serif;
         display: flex;
         justify-content: space-around;
         flex-direction: row;
-        max-width: 80%;
+        width: 80%;
         margin-top: 57px;
+        
 
-        margin-top: 50px;
+        
 
         .card1 , .card2, .card3{
-
-            width: 25%;
+            width: 320px;
+            height: 140px;
             display: flex;
-            justify-content: space-around;
             flex-direction: row;
             border-radius: 10px;
             padding: 15px;
             box-shadow: 0px 4px 40px -2px rgba(0, 0, 0, 0.08);
             font-family: $myFont;
-        
-
         }
 
 
@@ -96,7 +94,7 @@ $myFont : 'Poppins', sans-serif;
         }
         .card3{
             border-top: 5px solid #00aedc ;
-
+            
             .three{
 
                 margin-right: 20px;
@@ -122,7 +120,7 @@ $myFont : 'Poppins', sans-serif;
             width: 100%;
             justify-content: center;
             align-items: center;
-
+            
         
             .card1 , .card2, .card3{
 
@@ -130,7 +128,7 @@ $myFont : 'Poppins', sans-serif;
                 border-radius: 10px;
                 padding: 15px;
                 float: left;
-            
+                margin-top: 30px;
 
             }
 
@@ -189,6 +187,7 @@ $myFont : 'Poppins', sans-serif;
         background-color: #ff707a;
         border: none;
         border-radius: 5px;
+        margin-top: 40px;
         margin-bottom: 40px;
 
         &:hover{
