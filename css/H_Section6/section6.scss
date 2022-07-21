@@ -1,0 +1,71 @@
+$myColor: #2f2643;
+$myFont : 'Poppins', sans-serif;
+@mixin flex {
+    display: flex;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: #474f5a;
+    width: 100%;
+    .inner-footer{
+        width: 80%;
+        @include flex();
+        justify-content: space-between;
+        flex-direction: column;
+        margin-top: 50px;
+        .top-footer{
+            width: 80%;
+            display: flex;
+            justify-content: space-between;
+            h5{
+                color: whitesmoke;
+                :hover{
+                    color:$myColor ;
+                }
+            }
+            .nvite{
+                .bl-wh{
+                    width: 120px;
+                    height: 40px;
+                }
+                .rame{
+                    margin: 15px 0px;
+                    color: whitesmoke;
+                }
+            }
+            .rame , .flx , .h6 , .FAQ , .ab-us , .pric, .contact{
+                color: whitesmoke;
+            }
+        }
+        .bottom-footer{
+            @include flex();
+            justify-content: center;
+            flex-direction: column;
+            width: 100%;
+            .line{
+                width: 80%;
+                height: 1px;
+                background-color: white;
+            }
+            .copyright{
+                color: whitesmoke;
+                padding: 30px 15px;
+                border-top: 5px white;
+            }
+        }
+    }
+}
+@media (max-width:900px) {
+    .top-footer{
+        width: 80%;
+        @include flex();
+        justify-content:space-around;
+        flex-direction: column;
+        text-align: center;
+        .features , .pricing , .about-us{
+            margin-top: 50px;
+        }
+    }
+}

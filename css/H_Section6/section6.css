@@ -1,0 +1,67 @@
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #474f5a;
+  width: 100%;
+}
+footer .inner-footer {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-top: 50px;
+}
+footer .inner-footer .top-footer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+footer .inner-footer .top-footer h5 {
+  color: whitesmoke;
+}
+footer .inner-footer .top-footer h5 :hover {
+  color: #2f2643;
+}
+footer .inner-footer .top-footer .nvite .bl-wh {
+  width: 120px;
+  height: 40px;
+}
+footer .inner-footer .top-footer .nvite .rame {
+  margin: 15px 0px;
+  color: whitesmoke;
+}
+footer .inner-footer .top-footer .rame, footer .inner-footer .top-footer .flx, footer .inner-footer .top-footer .h6, footer .inner-footer .top-footer .FAQ, footer .inner-footer .top-footer .ab-us, footer .inner-footer .top-footer .pric, footer .inner-footer .top-footer .contact {
+  color: whitesmoke;
+}
+footer .inner-footer .bottom-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+footer .inner-footer .bottom-footer .line {
+  width: 80%;
+  height: 1px;
+  background-color: white;
+}
+footer .inner-footer .bottom-footer .copyright {
+  color: whitesmoke;
+  padding: 30px 15px;
+  border-top: 5px white;
+}
+
+@media (max-width: 900px) {
+  .top-footer {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+  }
+  .top-footer .features, .top-footer .pricing, .top-footer .about-us {
+    margin-top: 50px;
+  }
+}/*# sourceMappingURL=section6.css.map */

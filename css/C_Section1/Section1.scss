@@ -1,0 +1,98 @@
+$myColor: #2f2643;
+$myFont : 'Poppins', sans-serif;
+.Section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 94px;
+    .p-sign-in , .p-share , .p-customize{
+        margin: 20px;
+    }
+    .h2{
+        width: 60%;
+        text-align: center;
+        font-family: $myFont;
+        color: #2f2643;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 54px;
+        margin: 50px;
+    }
+    .minutes{
+        margin-top: 24px;
+        font: 500 $myFont;
+        font-size: 20px;
+        text-align: center;
+        opacity: 0.8;
+    }
+    //cards
+    .cards{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        width: 80%;
+        margin-top: 57px;
+        .card1 , .card2, .card3{
+            width: 320px;
+            height: 140px;
+            display: flex;
+            flex-direction: row;
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0px 4px 40px -2px rgba(0, 0, 0, 0.08);
+            font-family: $myFont;
+        }
+        .card1{
+            border-top: 5px solid #ff707a ;
+            .one{
+                margin-right: 20px;
+                font-size: 40px  ;
+                color:#ff707a ;
+            }
+        }
+        .card2{
+            border-top: 5px solid #f5b118 ;
+            .two{
+                margin-right: 20px;
+                font-size: 40px  ;
+                color:#f5b118;
+            }
+        }
+        .card3{
+            border-top: 5px solid #00aedc ;
+            .three{
+                margin-right: 20px;
+                font-size: 40px  ;
+                color:#00aedc;
+            }
+        }
+    }
+    @media (max-width: 1000px) {
+        .cards {
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            .card1 , .card2, .card3{
+                width: 80%;
+                margin-top: 30px;
+            }
+        }
+    }
+    .btn{
+
+        display: flex;
+        padding: 16px 53px;
+        font: 700 $myFont;
+        color: white;
+        background-color: #ff707a;
+        border: none;
+        border-radius: 5px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        &:hover{
+            color: $myColor;
+        }
+    }
+}

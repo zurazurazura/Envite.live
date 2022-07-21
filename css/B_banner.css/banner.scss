@@ -1,0 +1,73 @@
+$myColor: #2f2643;
+$myFont : 'Poppins';
+@mixin flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner{
+    margin-top: 64px;
+    .h1H{
+        @include flexcenter();
+        .h1{
+            width: 60%;
+            font-family:$myFont;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 60px;
+            line-height: 120%;
+            /* or 72px */
+            text-align: center;
+            color: #190E2F;
+        }
+    }
+    .h5H{
+        @include flexcenter();
+        .h5{
+            margin-top: 30px;
+            width: 60%;
+            text-align: center;
+            font-family: $myFont;
+            color: #2f2643;
+            font-weight: 500;
+            font-size: 21px;
+        }
+    }
+    .button{
+        @include flexcenter();
+        .btn{
+            margin-top: 26px;
+            padding: 16px 24px;
+            color: white;
+            background-color: #ff707a;
+            text-transform: uppercase;
+            font-weight: 700;
+            &:hover{
+                color: $myColor;
+                background-color: #ff707a;
+                border-color: #ff707a;
+                font: 700 $myFont ;
+            }
+        }
+    }
+    .credit{
+        @include flexcenter();
+        margin-top: 12px;
+        .innercredit{
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 103%;
+        }
+    }
+    .slider{
+        @include flexcenter();
+        margin-top: 36px;
+        width: 100%;
+        .innerslider{
+            max-width: 90%;
+            height: auto;
+        }
+    }
+}
