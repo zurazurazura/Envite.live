@@ -3,7 +3,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   margin-top: 94px;
 }
 .Section1 .p-sign-in, .Section1 .p-share, .Section1 .p-customize {
@@ -76,34 +75,7 @@
   }
   .Section1 .cards .card1, .Section1 .cards .card2, .Section1 .cards .card3 {
     width: 80%;
-    border-radius: 10px;
-    padding: 15px;
-    float: left;
     margin-top: 30px;
-  }
-  .Section1 .cards .card1 {
-    border-top: 5px solid #ff707a;
-  }
-  .Section1 .cards .card1 .one {
-    margin-right: 20px;
-    font-size: 40px;
-    color: #ff707a;
-  }
-  .Section1 .cards .card2 {
-    border-top: 5px solid #f5b118;
-  }
-  .Section1 .cards .card2 .two {
-    margin-right: 20px;
-    font-size: 40px;
-    color: #f5b118;
-  }
-  .Section1 .cards .card3 {
-    border-top: 5px solid #00aedc;
-  }
-  .Section1 .cards .card3 .three {
-    margin-right: 20px;
-    font-size: 40px;
-    color: #00aedc;
   }
 }
 .Section1 .btn {

@@ -7,8 +7,8 @@ footer {
 footer .inner-footer {
   width: 80%;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
   flex-direction: column;
   margin-top: 50px;
 }
@@ -16,7 +16,6 @@ footer .inner-footer .top-footer {
   width: 80%;
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
 }
 footer .inner-footer .top-footer h5 {
   color: whitesmoke;
@@ -37,8 +36,8 @@ footer .inner-footer .top-footer .rame, footer .inner-footer .top-footer .flx, f
 }
 footer .inner-footer .bottom-footer {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   width: 100%;
 }
@@ -51,4 +50,18 @@ footer .inner-footer .bottom-footer .copyright {
   color: whitesmoke;
   padding: 30px 15px;
   border-top: 5px white;
+}
+
+@media (max-width: 900px) {
+  .top-footer {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+  }
+  .top-footer .features, .top-footer .pricing, .top-footer .about-us {
+    margin-top: 50px;
+  }
 }/*# sourceMappingURL=section6.css.map */

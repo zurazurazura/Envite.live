@@ -1,17 +1,15 @@
 $myColor: #2f2643;
 $myFont : 'Poppins';
+@mixin flexcenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .banner{
-
     margin-top: 64px;
-
     .h1H{
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
+        @include flexcenter();
         .h1{
-
             width: 60%;
             font-family:$myFont;
             font-style: normal;
@@ -19,20 +17,12 @@ $myFont : 'Poppins';
             font-size: 60px;
             line-height: 120%;
             /* or 72px */
-            
             text-align: center;
-            
             color: #190E2F;
-    
         }
     }
-    
     .h5H{
-    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
+        @include flexcenter();
         .h5{
             margin-top: 30px;
             width: 60%;
@@ -41,79 +31,43 @@ $myFont : 'Poppins';
             color: #2f2643;
             font-weight: 500;
             font-size: 21px;
-    
-    
         }
     }
-
     .button{
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
+        @include flexcenter();
         .btn{
-        
             margin-top: 26px;
             padding: 16px 24px;
             color: white;
             background-color: #ff707a;
             text-transform: uppercase;
             font-weight: 700;
-
             &:hover{
-
                 color: $myColor;
                 background-color: #ff707a;
                 border-color: #ff707a;
                 font: 700 $myFont ;
-    
             }
-
         }
-
-
     }
-    
     .credit{
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        @include flexcenter();
         margin-top: 12px;
-
         .innercredit{
-
             font-family: 'Poppins';
             font-style: normal;
             font-weight: 400;
             font-size: 14px;
             line-height: 103%;
-
         }
-
     }
-
     .slider{
-
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include flexcenter();
         margin-top: 36px;
         width: 100%;
         .innerslider{
-
-            width: 50%;
-
+            max-width: 90%;
+            height: auto;
         }
-        
-
-
     }
-
-
 }
-
-
-
-

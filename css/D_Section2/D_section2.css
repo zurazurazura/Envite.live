@@ -1,7 +1,7 @@
 .div {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-size: 36px;
@@ -23,9 +23,9 @@
 .section2 .colored .main-widget {
   width: 60%;
   display: flex;
+  align-items: center;
   justify-content: space-around;
   flex-direction: row;
-  align-items: center;
 }
 .section2 .colored .main-widget .widget {
   width: 30%;
@@ -39,7 +39,6 @@
   margin-bottom: 24px;
 }
 .section2 .colored .main-widget .widget .find-out {
-  margin-top: 12px;
   color: #00aedc;
   font-size: large;
 }
@@ -53,23 +52,11 @@
   .section2 .colored .main-widget {
     width: 60%;
     display: flex;
+    align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    align-items: center;
   }
   .section2 .colored .main-widget .widget {
     width: 100%;
-    padding: 20px;
-    font-family: "Poppins", sans-serif;
-  }
-  .section2 .colored .main-widget .widget h4 {
-    font: bold;
-  }
-  .section2 .colored .main-widget .widget .find-out {
-    color: #00aedc;
-    font-size: large;
-  }
-  .section2 .colored .main-widget .widget .find-out:hover {
-    color: #2f2643;
   }
 }/*# sourceMappingURL=D_section2.css.map */

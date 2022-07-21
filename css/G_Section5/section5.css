@@ -1,7 +1,8 @@
 .section5 {
   display: flex;
-  width: 100%;
   justify-content: center;
+  width: 100%;
+  margin-top: 50px;
 }
 .section5 .shrink-sec5 {
   width: 50%;
@@ -12,9 +13,10 @@
   margin-bottom: 30px;
 }
 .section5 .shrink-sec5 .for-free {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: #2f2643;
   margin-bottom: 10px;
   font-size: 36px;
+  text-align: center;
 }
 .section5 .shrink-sec5 .set-up {
   text-align: center;
@@ -24,7 +26,7 @@
   margin-top: 30px;
   color: #f77881;
   font-size: 28px !important;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-family: #2f2643;
   text-align: left;
 }
 .section5 .shrink-sec5 .in-include {
